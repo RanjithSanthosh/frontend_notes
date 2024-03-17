@@ -1,0 +1,44 @@
+=>Create react app: 
+
+in cmd type "create-react-app app-name"
+
+
+
+ =>begin by typing:
+
+  cd my-app
+  npm start
+
+=> class and method and object -created like java
+ex:class Matha{
+  sumOF1(){
+    var a = 10;
+    var b = 10;
+    var summ = a+b;
+    document.getElementById('root').innerHTML = summ;
+
+  }
+  sumOF2(x){
+    var a = 100;
+    var b = 100;
+    var summ = a+b+x;
+    document.getElementById('root').innerHTML = summ;
+  }
+ 
+}
+var demo = new Matha();
+demo.sumOF2(100);
+
+=>function creation ways:
+i)var a=() =>
+{
+  var b =" Hello world";
+  document.getElementById('root').innerHTML=b;
+}
+a();
+
+ii)var temp = function(){
+ var hai = "code with Ranjith";
+  document.getElementById('root').innerHTML=hai;
+}
+temp();

@@ -1,0 +1,28 @@
+step 1: git clone https://github.com/RanjithSanthosh/Myproject.git
+
+step 2: git config --global user.name "RanjithSanthosh"
+
+step 3: git config --global user.email "ranjithsanthosh66@gmail.com"
+
+step 4: redirect to your repositary.      cd .\Myproject\
+
+step 5: adding created file, after this step your file is ready to give 
+        commit message.    git add .\index.html
+
+step 6: commit message giving moving to next step of push.    
+                                    git comit -m "feat : added my name"
+
+step 7: push command to upload your file to cloud reposatory to new branch.    
+                git push      (or)      git push --set-upstream origin frontend
+                                                         
+                                                              frontend is branch name
+
+step 8: import from cloud repo to your local computer use commrnt.     git pull
+
+step 9: git status
+        
+        git diff
+
+step 10: to create new branch.        git checkout -b "frontend"
+         to switch branch.            git checkout main
+         to check current branch      git branch
